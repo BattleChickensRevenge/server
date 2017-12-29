@@ -478,7 +478,7 @@ void BattleGroundQueue::FillPlayersToBG(BattleGround* bg, BattleGroundBracketId 
     int32 hordeFree = bg->GetFreeSlotsForTeam(HORDE);
     int32 aliFree   = bg->GetFreeSlotsForTeam(ALLIANCE);
 
-    int8 bg_differential = 1; // default differential between Horde & Alliance
+    int8 bg_differential = 0; // default differential between Horde & Alliance
 
     //if (bg->GetTypeID() == BATTLEGROUND_AV)
     //  bg_differential = 3;    // custom differential between Horde & Alliance for Alterac Valley
